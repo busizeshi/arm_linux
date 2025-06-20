@@ -1,0 +1,132 @@
+# ======================
+# 忽略编译生成的文件
+# ======================
+## 二进制文件
+*.exe
+*.out
+*.app
+*.bin
+*.so
+*.dll
+*.lib
+*.a
+
+## 对象文件
+*.o
+*.obj
+*.lo
+*.la
+
+## IDE 特定文件
+*.suo
+*.sdf
+*.user
+*.filters
+*.layout
+*.cbp
+*.vcxproj*
+*.vcproj*
+*.sln
+*.xcodeproj*
+*.vscode/
+
+# ======================
+# 忽略 CMake 生成的文件
+# ======================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+Makefile
+CTestTestfile.cmake
+*.cmake
+
+# ======================
+# 忽略 Makefile 生成的文件
+# ======================
+*.a
+*.d
+*.dylib
+*.so
+*.dSYM/
+
+# ======================
+# 忽略通用构建目录
+# ======================
+bin/
+obj/
+build/
+dist/
+*.egg-info/
+__pycache__/
+
+# ======================
+# 忽略媒体文件
+# ======================
+# 图片
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+
+# 视频
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.flv
+*.wmv
+*.webm
+
+# 音频
+*.mp3
+*.wav
+*.flac
+*.ogg
+
+# ======================
+# 忽略文档和日志
+# ======================
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.class
+
+# ======================
+# 忽略包管理文件
+# ======================
+*.tar
+*.gz
+*.zip
+*.7z
+*.rar
+*.whl
+*.egg
+
+# ======================
+# 系统文件
+# ======================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ======================
+# 测试覆盖报告
+# ======================
+*.gcda
+*.gcno
+coverage/
+htmlcov/
+*.lcov
