@@ -1,2 +1,0 @@
-/home/jwd/development/arm_linux/imx6ull_linux_drivers/1_chrdevbase/chrdevbase.ko
-/home/jwd/development/arm_linux/imx6ull_linux_drivers/1_chrdevbase/chrdevbase.o
